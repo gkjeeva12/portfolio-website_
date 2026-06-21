@@ -1,5 +1,7 @@
 # Dockerized Portfolio Website Deployment on AWS EC2
 
+Public URL: http://54.80.233.25
+
 ## Technologies Used
 
 * Docker
@@ -44,4 +46,4 @@ sudo docker run -d -p 80:80 portfolio-website
 ![EC2](Screenshots/ec2-running.png)
 
 ### Website Running on AWS
-![Live Website](Screenshots/live-website-public-ip.png)
+![Live Website](Screenshots/live-website-public.png)
