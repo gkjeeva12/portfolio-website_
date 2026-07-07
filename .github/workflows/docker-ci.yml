@@ -23,6 +23,6 @@ jobs:
         run: |
           docker build -t ${{ secrets.DOCKER_USERNAME }}/portfolio-website_:latest .
 
-      - name: Push Docker Image
-        run: |
-          docker push ${{ secrets.DOCKER_USERNAME }}/portfolio-website_:latest
+      - name: Build Docker Image
+  run: |
+    docker build -t ${{ secrets.DOCKER_USERNAME }}/portfolio-website:latest .
